@@ -25,7 +25,10 @@ body {
     padding-right: 1200px;
 }
 .side {
-    width:700px;
+    margin-left: 10px;
+    width:500px;
+    height:800px;
+    border:white solid 1px;
 }
 .flex {
     display: flex;
@@ -52,4 +55,5 @@ nav,
 .last {
     margin-right: auto !important;
 }
+
 

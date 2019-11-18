@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>erki tore koht</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <nav class="flex-item flex-nav">
+            <div class="logo"> <img src="" alt="logo" height="70px"></div>
+            <a href="http://">Avaleht</a>
+                <a href="http://">Menüü</a>
+                <a href="http://">Tooted</a>
+                <a href="http://" class="last">Kontakt</a>
+            
+        </nav>
+        </div>
+    <div class="main flex big">
+        <div class="flex-item side"></div>
+        <div class="flex-item big"></div>
+        <div class="flex-item side"></div></div>
+    <div class="footer">
+        <div class="flex-item"></div>
+    </div>
+    
+</body>
+</html>

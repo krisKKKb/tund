@@ -26,6 +26,7 @@ body {
     width: 450px;
     height: 700px;
     border:white solid 1px;
+    color: white;
 }
 .flex {
     display: flex;

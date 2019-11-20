@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 html,
 body {
@@ -13,8 +12,6 @@ body {
     background: black;
 }
 .flex-item {
-    border: white solid 1px;
-    background-color:black;
     margin: 10px 10px;
 }
 .big {
@@ -26,20 +23,22 @@ body {
 }
 .side {
     margin-left: 10px;
-    width:500px;
-    height:800px;
+    width: 450px;
+    height: 700px;
     border:white solid 1px;
 }
 .flex {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 nav,
 .footer .flex-item {
     height: 100px;
+    
 }
 .flex-nav {
-    padding: 10 80px;
+    padding: 0px 167px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,8 +51,27 @@ nav,
     font-weight: bold;
     color: white;
 }
-.last {
-    margin-right: auto !important;
+
+.flex-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 
+.flex-box {
+    display: flex;
+    border: white solid 1px;
+    height: 250px ;
+    width: 250px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
 
+.flex-bottom {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px 10px;
+    border: white solid 1px;
+    padding: 35px;
+
+}
